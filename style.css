@@ -1,0 +1,630 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/* CSS dla wszystkich zakładek */
+
+body {
+    background-color:#332E3C;
+}
+
+#main {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color:#ADAABF;
+}
+
+header img {
+    width: 100%;
+    display: block;
+}
+
+nav {
+    background-color:#918DA9;
+    text-align: center;
+    
+}
+
+a.menu {
+    display: inline-block;
+    padding: 15px 25px;
+    color: white;
+    text-decoration: none;
+    text-align: center; 
+}
+
+a.menu:hover {
+    background-color:#332E3C;
+    color:#E2E1E8;
+}
+
+#footer {
+    text-align: center;
+    background-color: #918DA9;
+    padding: 10px;
+}
+
+/*--------------------------------*/
+
+/* CSS dla zakładki "O nas - index.php" */
+
+#h_index {
+    text-shadow: 2px 2px #918DA9;
+}
+
+article {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+article div {
+    margin: 0 20% 20PX 20% ;
+    padding-bottom: 15px;
+    border-bottom: 4px solid;
+}
+
+article.right {
+    float: left;
+    width: 35%;
+    padding: 15px;
+}
+
+article h1 {
+    font-size: 30px;
+    text-align: center;
+    margin: 0 20% 20PX 20% ;
+    padding-bottom: 15px;
+    border-bottom: 4px solid;
+}
+
+img.right {
+    float: right;
+    padding: 15px;
+    width: 35%;
+    border-radius: 30% 40% 30% 40%;
+}
+
+img.left {
+    float: left;
+    padding: 15px;
+    width: 35%;
+    border-radius: 40% 30% 40% 30%;
+}
+
+article p {
+    text-align: justify;
+    line-height: 20px;
+    font-size: 15px;
+    padding: 15px 0 15px 0;
+}
+
+/*---------------------------------------*/
+
+/* CSS dla zakładki "KSW - ksw.php" */
+
+.naglowek {
+    margin: 20px;
+    text-align: center;
+}
+
+.naglowek.fs {
+    margin: 20px;
+    text-align: center;
+    text-shadow: 2px 2px #918DA9;
+}
+
+.KSW {
+    margin-top: 100px;
+    text-shadow: 2px 2px #918DA9;
+}
+
+.win {
+    background: green;
+}
+
+.lose {
+    background: red;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+}
+  
+.image {
+    display: block;
+    width: 220px;
+    height: 276px;
+    border-radius: 10%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 276px;
+    width: 220px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:black;
+    border-radius: 10%;
+}
+
+.container:hover .overlay {
+    opacity: 0.6;
+    border-radius: 10%;
+}
+  
+.text {
+    color:white;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.text1 {
+    color:white;
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.tab_walka, th{
+    border:solid 2px;
+    background: #332E3C;
+    color:#EADEDA;
+    margin-top: 15px;
+    padding:5px 0;
+}
+
+.tab_walka, td{
+    border:solid 2px;
+    border-collapse: collapse;
+    background: #332E3C;
+    color:#EADEDA;
+    margin-top: 15px;
+    padding:5px 0;  
+}
+
+#ksw {  
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 260px;
+    column-gap: 100px;
+    height: 300px;
+    margin: 60px;   
+}
+
+table {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/*--------------------------------------------*/
+
+/* CSS dla zakładki "Kadra - kadra.php" */
+
+#kadra {
+    font-size: 25px;
+    text-align: center;
+    margin: 50px 0;
+    text-shadow: 2px 2px #918DA9;
+}
+
+#tabela{
+    text-align: center;
+    width: 50%;
+}
+
+.cont {
+    position: relative;
+    width: 50%;
+}
+
+.imgk {
+    display: block;
+    width: 275px;
+    height: 183px;
+    border-radius: 5%;
+    margin: 60px 420px 40px;
+}
+
+.over {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 183px;
+    width: 275px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:black;
+    border-radius: 5%;
+    margin: 0px 420px 40px;
+
+}
+
+.cont:hover .over {
+    opacity: 0.6;
+    border-radius: 5%;
+}
+  
+.tex {
+    color:white;
+    font-size: 15px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.kadra_cytat {
+    text-align: center;
+    padding: 40px;
+    color: #0B3948;
+    font-size: 20px;
+}
+
+/*-----------------------------------------*/
+
+/* CSS dla zakadki "Kontakt - kontakt.php" */
+
+article .center {
+    float: center;
+    padding: 20px;
+    width: 25%;
+    margin: 0 38% 5px 38%;
+}
+
+article #opis p {
+    text-align: center;
+    font-size: 17px;
+}
+
+article#kontakt {
+    text-align: center;
+}
+
+article#kontakt h2 {
+    padding: 30px;
+    float: center;
+    text-shadow: 2px 2px #918DA9;
+}
+
+article#kontakt img {
+    float: center;
+    width: 60%;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+article#kontakt p {
+    text-align: center;
+    font-size: 17px;
+}
+
+article#kontakt a {
+    color: #0B3948;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/*-------------------------------------*/
+
+/* CSS dla zakładki "Galeria - galeria.php" */
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-right: 35%;
+    margin-left: 35%;
+}
+  
+.mySlides {
+    display: block;
+    width: 700px;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px ;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+  
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+  
+.numbertext {
+    color: black;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    margin-left: 50px;
+    top: 0;
+}
+  
+.koty {
+    margin-left: 50px;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin-bottom: 10px ;
+    background-color: #332E3C;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+  
+.active, .dot:hover {
+    background-color: #ADAABF;
+}
+  
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+  
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+  
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.pho {
+    width: 245px;
+    border: 4px solid #332E3C;
+    padding: 3px;   
+}
+
+/*-------------------------------------*/
+
+/* CSS dla zakładki "Rejestracja - logowanie.php" */
+
+.log { 
+    width: 400px;
+    padding: 20px;
+    background-color:#D0CDD7;
+    text-align: center;
+    margin: 100px 32%;
+}
+
+.log h1 {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.log input[type = "text"],.log input[type = "password"],.log input[type = "email"] {
+    border:0;
+    background: none;
+    display: block;
+    margin: 15px auto;
+    text-align: center;
+    border: 2px solid #5C6B73;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: #303633;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.log input[type = "text"]:focus,.log input[type = "password"]:focus,.log input[type = "email"]:focus {
+    width: 280px;
+    border-color: #253237;
+}
+
+.log input[type = "submit"] {
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #9DB4C0;
+    padding: 14px 40px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.log input[type = "submit"]:hover {
+    background: #9DB4C0;
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+
+/* CSS dla tajnej zakładki "przywiatnie.php" */
+
+.pow {
+    text-align: center;
+    margin: 100px 350px;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid green;
+    background: green;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+/*-----------------------------------------*/
+
+/* CSS dla zakładki "Moje konto - konto.php" */
+
+#cennik {
+    text-align: center;
+    margin: 30px;
+}
+
+#plan_zajec {
+    text-align: center;
+    margin: 30px;
+}
+
+.wylo {
+    margin: 40px 350px;
+}
+
+.wylo input[type = "submit"] {
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #9DB4C0;
+    padding: 14px 40px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    border: 1px solid;
+}
+
+.wylo input[type = "submit"]:hover {
+    background: #9DB4C0; 
+}
+
+/*-----------------------------------------*/
+
+/* Responsywność menu */
+
+@media screen and (max-width: 600px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+@media screen and (min-width: 600px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+
+@media screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+@media screen and (min-width: 922px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+@media screen and (min-width: 1200px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+@media screen and (min-width: 1980px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+/*-------------------------------------------*/

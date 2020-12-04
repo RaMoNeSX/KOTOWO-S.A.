@@ -1,0 +1,1 @@
+<footer id="footer">@ 2020 kocieksw@gmail.com Wszelkie prawa zastrzeżone.</footer>
